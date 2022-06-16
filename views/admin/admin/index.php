@@ -1,7 +1,7 @@
 <?php
 
-require_once('/xampp/htdocs/Source_ref/controllers/admin/admin_controller.php');
-$admin = Admin::getAll();
+// require_once('/xampp/htdocs/Source_ref/controllers/admin/admin_controller.php');
+// $admin = Admin::getAll();
 
 session_start();
 if (isset($_SESSION["user"])) {
